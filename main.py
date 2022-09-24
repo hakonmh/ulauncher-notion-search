@@ -24,10 +24,11 @@ class KeywordQueryEventListener(EventListener):
         items = []
 
         if not extension.NOTION:
-            extension.NOTION = Notion(extension.preferences.get("notion_token"))
+            open_in = extension.preferences.get("open_in")
+            notion_token = extension.preferences.get("notion_token")
+            extension.NOTION = Notion(notion_token, open_in)
         data = event.get_argument()
-        open_in = extension.preferences.get("open_in")
-        pages = extension.NOTION.search(data, open_in)
+        pages = extension.NOTION.search(data)
         for page in pages:
             item = ExtensionResultItem(icon=page['icon'],
                                        name=page['title'],

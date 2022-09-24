@@ -18,7 +18,7 @@
         "id": "notion_token",
         "type": "input",
         "name": "Notion Token",
-        "description": "You can generate a token in https://www.notion.so/my-integrations, create an integration and follow the instructions to link the token with a database. Multiple tokens are delimitered with ','",
+        "description": "You can generate a token in https://www.notion.so/my-integrations, create an integration and follow the instructions to link the token with a page. Multiple tokens are delimitered with ','",
         "default_value": ""
       },
       {"id": "open_in",

@@ -24,7 +24,7 @@ Quickly search Notion pages using Ulauncher.
 
 3. Go to [Notion Integration](https://www.notion.so/my-integrations), create an integration and [follow the instructions](https://developers.notion.com/docs/getting-started#getting-started) to link the token with a page.
 
-4. Allow a page to be searched: Go to the page > `...` in the top right hand corner > Add connections > Add your Notion integration
+4. Allow a page to be searched: Go to the page > `...` (top right corner) > Add connections > Add your Notion integration
 
     - You only need to do this for top level pages. The integration gets access to all child pages.
 

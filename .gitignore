@@ -1,0 +1,14 @@
+/build/
+build/lib
+dist
+env
+venv
+__pycache__
+.git
+.vscode
+.pytest_cache
+settings.json
+*.egg-info
+*.code-workspace
+*.pyc
+*.lprof

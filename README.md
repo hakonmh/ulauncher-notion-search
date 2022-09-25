@@ -8,8 +8,8 @@ Quickly search Notion pages using Ulauncher.
 
 - [Ulauncher 5](https://ulauncher.io/)
 - Python >= 3
-- `requests` package. Install this using `pip install requests`
-- `rapidfuzz` package. Install this using `pip install rapidfuzz`
+- `httpx` package. Install this using `sudo pip3 install httpx`
+- `rapidfuzz` package. Install this using `sudo pip3 install rapidfuzz`
 - [Notion app](https://github.com/notion-enhancer/notion-repackaged) (optional).
 
 ### Steps

@@ -5,30 +5,30 @@
     "icon": "images/icon.png",
     "required_api_version": "^2.0.0",
     "options": {
-      "query_debounce": 0.05
+      "query_debounce": 0.3
     },
     "preferences": [
       {
         "id": "notion_keyword",
         "type": "keyword",
-        "name": "Notion Search Keyword",
+        "name": "Notion search keyword",
         "default_value": "nt"
       },
       {
         "id": "notion_token",
         "type": "input",
-        "name": "Notion Token",
+        "name": "Notion token",
         "description": "You can generate a token in https://www.notion.so/my-integrations, create an integration and follow the instructions to link the token with a page. Multiple tokens are delimitered with ','",
         "default_value": ""
       },
       {"id": "open_in",
-       "type": "keyword",
-       "name": "Open Links",
+       "type": "select",
+       "name": "Open links in",
        "description": "Choose whether to open pages in the Notion app or in the web browser",
        "default_value": "App",
        "options": [
-         {"value": "app", "text": "App"},
-         {"value": "browser", "text": "Browser"}
+         {"value": "App", "text": "App"},
+         {"value": "Browser", "text": "Browser"}
         ]
        }
     ]

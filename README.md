@@ -1,15 +1,15 @@
 # ulauncher-notion-search
 
-Quickly search Notion pages using Ulauncher.
+Search Notion pages using Ulauncher.
 
 ## Install
 
 ### Requirements
 
 - [Ulauncher 5](https://ulauncher.io/)
-- Python >= 3
-- `httpx` package. Install this using `sudo pip3 install httpx`
-- `rapidfuzz` package. Install this using `sudo pip3 install rapidfuzz`
+- Python >= 3.7
+- `tornado` package. Install this using `sudo pip3 install tornado`
+- `thefuzz` package. Install this using `sudo pip3 install thefuzz[speedup]`
 - [Notion app](https://github.com/notion-enhancer/notion-repackaged) (optional).
 
 ### Steps
@@ -24,7 +24,7 @@ Quickly search Notion pages using Ulauncher.
 
 3. Go to [Notion Integration](https://www.notion.so/my-integrations), create an integration and [follow the instructions](https://developers.notion.com/docs/getting-started#getting-started) to link the token with a page.
 
-4. Allow a page to be searched: Go to the page > `...` (top right corner) > Add connections > Add your Notion integration
+4. Allow a page to be searched by: Go to the page > `...` (top right corner) > Add connections > Add your Notion integration
 
     - You only need to do this for top level pages. The integration gets access to all child pages.
 

@@ -2,6 +2,10 @@
 
 Search Notion pages using Ulauncher.
 
+<p align="center">
+  <img style="width: 450px" src="images/notion-search.png" alt="Icon" />
+</p>
+
 ## Install
 
 ### Requirements

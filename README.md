@@ -12,8 +12,14 @@ Search Notion pages using Ulauncher.
 
 - [Ulauncher 5](https://ulauncher.io/)
 - Python >= 3.7
-- `thefuzz` package. Install this using `sudo pip3 install thefuzz[speedup]`
-- [Notion app](https://github.com/notion-enhancer/notion-repackaged) (optional).
+- Required Python packages:
+  - `thefuzz[speedup]`: For fuzzy text matching
+  - `aiohttp`: For async HTTP requests
+
+  Install these using:
+  ```bash
+  sudo pip3 install thefuzz[speedup] aiohttp
+  ```
 
 ### Steps
 

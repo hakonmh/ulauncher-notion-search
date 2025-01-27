@@ -6,7 +6,7 @@ from ulauncher.api.shared.action.RenderResultListAction import RenderResultListA
 from ulauncher.api.shared.action.ExtensionCustomAction import ExtensionCustomAction
 from ulauncher.api.shared.action.DoNothingAction import DoNothingAction
 
-from notion_search import Notion
+from notion_search import NotionSearch as Notion
 from os import system
 
 
@@ -43,9 +43,9 @@ class KeywordQueryEventListener(EventListener):
         pages = extension.NOTION.search(text)
         for page in pages:
             item = ExtensionResultItem(icon="images/icon.png",
-                                       name=page['title'],
-                                       description=page['description'],
-                                       on_enter=ExtensionCustomAction(page))
+                                       name=page.title,
+                                       description=page.workspace_name,
+                                       on_enter=ExtensionCustomAction(page.to_dict()))
             items.append(item)
         return items
 

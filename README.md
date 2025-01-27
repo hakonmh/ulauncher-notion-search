@@ -12,7 +12,6 @@ Search Notion pages using Ulauncher.
 
 - [Ulauncher 5](https://ulauncher.io/)
 - Python >= 3.7
-- `tornado` package. Install this using `sudo pip3 install tornado`
 - `thefuzz` package. Install this using `sudo pip3 install thefuzz[speedup]`
 - [Notion app](https://github.com/notion-enhancer/notion-repackaged) (optional).
 

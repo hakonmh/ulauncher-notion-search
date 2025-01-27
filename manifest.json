@@ -25,7 +25,7 @@
        "type": "select",
        "name": "Open links in",
        "description": "Choose whether to open pages in the Notion app or in the web browser",
-       "default_value": "App",
+       "default_value": "Browser",
        "options": [
          {"value": "App", "text": "App"},
          {"value": "Browser", "text": "Browser"}
